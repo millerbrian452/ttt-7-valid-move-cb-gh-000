@@ -19,18 +19,10 @@ def position_taken?(board, index)
     false
   elsif board == [nil, " ", " ", " ", " ", " ", " ", " ", " "]
     false
-  elsif board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] and between? == true
+  elsif board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
     true
   end
 
 end
 
-def between?(index)
 
-  if(index(index, min) > 0) == false;
-
-  elsif(index(index, max) < 8) == false;
-
-     true;
-  end
-end
